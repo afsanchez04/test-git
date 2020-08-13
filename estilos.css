@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	width: 90%;
+	/*background: lightgray;*/
+	margin: 30px auto 30px auto;
+	justify-content: space-between;
+	align-items: center;
+	height: 90px;
+}
+
+body{
+	background: url(library.jpg);
+	background-position: center center;
+}
+
+#bg-light{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+
+header h1{
+	font-size: 2.5em;
+	font-weight: 100;
+	color: #fff;
+}
+
+header i{
+	font-size: 1.5em;
+	color: #fff;
+	margin-left: 10px;
+} 
+
+#mosaico{
+	display: flex;
+	width: 90%;
+	/*background: orange;*/
+	height: 300px;
+	margin: auto;
+}
+
+.m1,.m2,.m3{
+	display: flex;
+	flex-wrap: wrap;
+	width: 33.3%;
+	height: auto;
+	/*background: white;*/
+	color: white;
+}
+
+.m2{background: #0fa2cb;}
+
+.m-int{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+.int-1, .int-2, .int-5, .int-6{
+	/*width: 50%;*/
+	flex-grow: 1;
+	margin: 10px 10px 5px 10px;
+
+}
+
+.int-1{
+	background: #50b2a2;
+	margin-right: 5px;
+}
+.int-2{
+	background: #50b28a;
+	margin-left: 5px;
+}
+/*.int-3{background: #c85141;}
+
+.int-4{background: #d8457a;}*/
+.int-5{
+	background: #d8733b;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.int-6{
+	background: #d9912a;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.espacio1 {
+	position: relative;
+    background: #c85141;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+
+.espacio2{
+	position: relative;
+	display: flex;
+	background: #d8457a;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.espacio3{
+	margin: 10px 0;
+}
+
+#mosaico p{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+
+.espacio1 p{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+
+.espacio2 p{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+
+.int-3, .int-4{
+	width: 100%;
+	padding: 10px;
+}
+
+#mosaico .m-int i{
+	font-size: 3em;
+}
+
+footer{
+	display: flex;
+	width: 90%;
+	margin: 30px auto 30px auto;
+	flex-direction: column;
+}
+
+footer #box{
+	height: 70px;
+	width: 100%;
+	background: rgba(255,255,255,.7);
+}
+
+footer #copy{
+	display: flex;
+	color: #fff;
+	justify-content: flex-end;
+	margin: 20px 5px 0 0;
+}
+
+footer #copy p{
+	opacity: .8;
+}
+
+footer #copy p a{
+	color: #0fa2cb;
+}
+
+footer #copy p a i{
+	margin: 0 5px;
+}
+
+
+
